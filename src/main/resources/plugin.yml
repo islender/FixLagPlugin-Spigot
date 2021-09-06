@@ -1,0 +1,10 @@
+name: Fixlag
+version: '${project.version}'
+main: me.islender.fixlag.Fixlag
+api-version: 1.17
+authors: [ islender ]
+description: Runs /kill @e[type=item]. Kills all items, simple
+commands:
+  fixlag:
+    description: An easy way to clear all dropped items on the ground
+    usage: /<command>
